@@ -1,0 +1,30 @@
+# ------------------------------------------------------
+# THIS FILE WAS AUTOMATICALLY GENERATED (DO NOT MODIFY)
+# ------------------------------------------------------
+
+type Symptom {
+  """Example field (placeholder)"""
+  exampleField: Int!
+}
+
+type Query {
+  symptoms: [Symptom!]!
+  symptom(id: Int!): Symptom!
+}
+
+type Mutation {
+  createSymptom(createSymptomInput: CreateSymptomInput!): Symptom!
+  updateSymptom(updateSymptomInput: UpdateSymptomInput!): Symptom!
+  removeSymptom(id: Int!): Symptom!
+}
+
+input CreateSymptomInput {
+  """Example field (placeholder)"""
+  exampleField: Int!
+}
+
+input UpdateSymptomInput {
+  """Example field (placeholder)"""
+  exampleField: Int
+  id: Int!
+}
